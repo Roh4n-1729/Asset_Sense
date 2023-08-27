@@ -14,7 +14,7 @@ function Transformation(props) {
             Enhance Your Visuals with Ease.{" "}
             </h1>
             <p className="text-2xl py-5 cursor-none" onMouseEnter={props.onMouseEnter} onMouseLeave={props.onMouseLeave}>
-            Turn ordinary images into captivating visual assets using our powerful set of transformation tools. Whether you're a designer, marketer, or content creator, our platform offers seamless solutions to bring out the best in your visuals.
+            Turn ordinary images into captivating visual assets using our powerful set of transformation tools. Whether you&apos;re a designer, marketer, or content creator, our platform offers seamless solutions to bring out the best in your visuals.
             </p>
             <Link href='/transformation'>
             <Button text='Explore Now '   />
