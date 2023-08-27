@@ -10,9 +10,9 @@ import { useRouter } from 'next/navigation'
 const Nav = () => {
   const router = useRouter();
   
-  const Uploadhandler = ()=>{
-    router.refresh();
-  }
+  // const Uploadhandler = ()=>{
+  //   router.refresh();
+  // }
 
 
 
@@ -27,7 +27,7 @@ const Nav = () => {
         </li>
         <li className={`${styles["nav-item"]} ${styles.active}`}>
           <div className={styles["nav-link"]}>
-          <CldUploadButton uploadPreset="kajdyoxr" onUpload={Uploadhandler}  />
+          <CldUploadButton uploadPreset="kajdyoxr"   />
           </div>
         </li>
       </ul>
