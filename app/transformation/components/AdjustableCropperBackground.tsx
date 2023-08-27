@@ -28,7 +28,7 @@ interface Props {
   paddingY?:number;
 }
 
-export const AdjustableCropperBackground = forwardRef<HTMLCanvasElement, Props>(
+const AdjustableCropperBackground = forwardRef<HTMLCanvasElement, Props>(
   (
     {
       className,
@@ -73,3 +73,7 @@ export const AdjustableCropperBackground = forwardRef<HTMLCanvasElement, Props>(
     );
   }
 );
+
+AdjustableCropperBackground.displayName = 'AdjustableCropperBackground';
+
+export default AdjustableCropperBackground
