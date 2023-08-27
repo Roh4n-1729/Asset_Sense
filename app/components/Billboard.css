@@ -1,0 +1,47 @@
+.animated-heading {
+  color: rgb(0, 0, 0);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.animation-step-1 {
+  color: white;
+}
+
+.animation-step-2 {
+  color: white; 
+}
+
+.animation-step-3 {
+  color: red;
+}
+
+.image-container {
+  z-index: 0;
+  animation-duration: 1s; 
+  animation-fill-mode: forwards; 
+}
+
+.fade-in-right {
+  animation-name: fade-in-right; 
+}
+.cursor {
+  background-color: #111;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

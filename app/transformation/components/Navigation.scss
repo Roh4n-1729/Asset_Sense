@@ -1,0 +1,74 @@
+.image-editor-navigation {
+	background: #1b1a21;
+	height: 84px;
+	border-top: solid 1px #2b2a30;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 16px;
+	padding-right: 16px;
+	&__button {
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+	&__buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__upload-input {
+		display: none;
+	}
+
+	@media (max-width: 540px) {
+		padding-left: 8px;
+		padding-right: 8px;
+		&__button {
+			margin-left: 4px;
+			margin-right: 4px;
+		}
+	}
+}
+.crop:hover  + .changeCrop { opacity: 1; color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.sat:hover  + .changeSat { opacity: 1; color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.Brit:hover  + .changeBrit { opacity: 1; color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.Cont:hover  + .changeCont { opacity: 1; color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.Hue:hover  + .changeHue { opacity: 1; color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.Blu:hover  + .changeBlu { opacity: 1; color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.Inv:hover  + .changeInv { opacity: 1; color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.Gray:hover + .changeGray { opacity: 1; color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.padx:hover + .changePadx { opacity: 1; color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.pady:hover + .changePady { opacity: 1; color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+
+
+.changeSat{
+	opacity: 0;
+}
+.changeCrop{
+	opacity:0 ;
+}
+.changeBrit{
+	opacity: 0;
+}
+.changeCont{
+	opacity: 0;
+}
+.changeHue{
+	opacity: 0;
+}
+.changeBlu{
+	opacity: 0;
+}
+.changeInv{
+	opacity: 0;
+}
+.changeGray{
+	opacity: 0;
+}
+.changePadx{
+	opacity: 0;
+}
+.changePady{
+	opacity: 0;
+}
