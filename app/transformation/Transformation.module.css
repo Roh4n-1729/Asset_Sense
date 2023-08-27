@@ -1,0 +1,11 @@
+.blur-circle-shape {
+    position: absolute;
+    top: -125px;
+    left: -125px;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    background: var(--green-400);
+    z-index: 0;
+    filter: blur(250px);
+}
