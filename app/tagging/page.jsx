@@ -34,9 +34,9 @@ function Tagging() {
             through the Imagga API, efficiently categorizes images with
             descriptive tags, enabling quick content retrieval. This enhances
             organization, aids collaboration, refines marketing strategies, and
-            offers data insights. It's crucial for businesses, e-commerce,
+            offers data insights. It&apos;s crucial for businesses, e-commerce,
             archiving, and personal use, streamlining workflows and improving
-            accessibility. Image tagging's automation scales for large datasets,
+            accessibility. Image tagging&apos;s automation scales for large datasets,
             benefiting various sectors and users.
           </h1>
           <img src="tagging.jpeg" alt="tagging" className=" w-[35vw]" />

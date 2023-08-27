@@ -21,7 +21,7 @@ export default function MultiLayerParallax() {
         className="font-bold text-white text-xl md:text-9xl relative z-10 flex flex-col justify-center items-center drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]"
       >
         AssetSense
-        <p className=" text-[27px] text-">~Images won't be same again.</p>
+        <p className=" text-[27px] text-">~Images won&apos;t be same again.</p>
       </motion.h1>
 
       <motion.div
