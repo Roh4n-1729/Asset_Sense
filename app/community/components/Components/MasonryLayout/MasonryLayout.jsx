@@ -24,10 +24,10 @@ const MasonryLayout = ({ images }) => {
     >
       {images.map(item => (
         <MasonryBox 
-          key={item.secure_url} 
-          wallSrc={item.secure_url} 
+          key={item.url} 
+          wallSrc={item.url} 
         />
-      ))}
+      ))} 
     </Masonry>
   )
 }

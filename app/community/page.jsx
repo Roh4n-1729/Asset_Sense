@@ -4,10 +4,10 @@ import getImages from '@/actions/get-images'
 
 
 async function page() {
+  
   const results = await getImages();
- 
   return (
-    <div><Com images={results.resources}/></div>
+    <Com images={results.results}/> 
   )
 }
 

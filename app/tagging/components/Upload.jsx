@@ -16,6 +16,7 @@ function Tagging(props) {
           "Basic YWNjXzM5Yjc1YjJmM2E5MTg3ZTo3MmI1YmVkY2YzNjI0OTlmMzQ1YTQyYjliMjg5NGUxOQ==",
       },
     });
+    console.log(imageUrl);
     let newArray = response.data.result.tags
       .filter((item) => item.confidence > 10)
       .map((item) => item.tag.en);
