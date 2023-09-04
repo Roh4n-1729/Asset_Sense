@@ -22,7 +22,8 @@ const MasonryLayout = ({ images }) => {
       className={styles["my-masonry-grid"]}
       columnClassName={styles["my-masonry-grid_column"]}
     >
-      {images.map(item => (
+      {images
+  .reverse().map(item => (
         <MasonryBox 
           key={item.url} 
           wallSrc={item.url} 
