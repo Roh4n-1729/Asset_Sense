@@ -12,7 +12,7 @@ const LINKS = [
   },
   {
     title: "Resource",
-    items: ["Thank", "You", "ContentStack", "I learned a lot"],
+    items: [],
   },
 ];
  
